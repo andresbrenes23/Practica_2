@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--
+
+-->
+<html>
+    <head>
+       <title>ElectronicaBrenes</title>
+        <meta charset="UTF-8">
+        <link href="css/Estilos_Menu.css" rel="stylesheet" type="text/css"/>
+        <link href="css/Estilos_Pagina.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+       <header class="header">
+            <nav class="nav">
+                <h1><a href="Inicio.html" class="nav-link logo" >ElectronicaBrenes</a></h1>
+                <ul class="nav-menu">
+                   <li class="formacion-menu"><a href="Promociones.html" class="nav-link nav-menu-link">&triangleleft;</a></li>
+                   <li class="formacion-menu"><a href="Ubicacion.html" class="nav-link nav-menu-link">&triangleright;</a></li>
+                   <li class="formacion-menu"><a href="Inicio.html" class="nav-link nav-menu-link">Inicio</a></li>
+                   <li class="formacion-menu"><a href="Componentes.html" class="nav-link nav-menu-link">Componentes</a></li>
+                   <li class="formacion-menu"><a href="Perifericos.html" class="nav-link nav-menu-link">Perifericos</a></li>
+                   <li class="formacion-menu"><a href="SillasGamer.html" class="nav-link nav-menu-link">Sillas</a></li>
+                   <li class="formacion-menu"><a href="Promociones.html" class="nav-link nav-menu-link">Promociones</a></li>
+                   <li class="formacion-menu"><a href="Registro.html" class="nav-link nav-menu-link">Registro</a></li>
+                   <li class="formacion-menu"><a href="Ubicacion.html" class="nav-link nav-menu-link">Ubicacion</a></li>
+                   <li class="formacion-menu"><a href="Videos.html" class="nav-link nav-menu-link">Videos</a></li>
+                </ul>
+            </nav>
+        </header>
+    <aside>
+        <h2 class="noticia">Registros de Usuarios para compras</h2>
+    </aside>
+        
+        <section>
+            <article>
+                <h3>Porfavor Registrarse aqui</h3>
+                <form action="/usuario/registro" method="POST">
+                    <table class="Registro">
+                        <tbody>
+                            <tr>
+                                <td>Correo:</td>  
+                                <td><input type="email" name="usuario" placeholder="correo@correo.com" size="35" /><br/></td>
+                            </tr>
+                            <tr>
+                                <td>Contraseña:</td>  
+                                <td><input type="password" name="password1" value="" size="10" /><br/></td> 
+                            </tr>
+                            <tr>
+                                <td>Nombre completo:</td>  
+                                <td><input type="text" name="nombre" value="" size="35" /><br/></td> 
+                            </tr>
+                            <tr>
+                                <td>Edad:</td>  
+                                <td><input type="number" name="edad" value="" min="18" max="100" /><br/></td> 
+                            </tr>
+                        </tbody>
+                    </table>
+ 
+                    Provincia: <select name="Provincia"><br/>
+                        <option value="0">Heredia </option>
+                        <option value="1">San Jose </option>
+                        <option value="2">Cartago </option>
+                        <option value="3">Alajuela </option>
+                        <option value="4">Guanacaste </option>
+                        <option value="5">Limon </option>
+                        <option value="6">Puntarenas </option>
+                         
+                        
+                    </select><br/>
+                    <input type="submit" value="Registro " name="boton registro" />
+                </form>
+            </article>
+        <br>
+        <br>
+        </section>
+        
+     <footer>
+            <p>Derechos Reservados &COPY; 2024</p>
+     </footer>
+    </body>
+</html>
